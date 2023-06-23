@@ -1,0 +1,218 @@
+section, ul, div{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section.topGradient {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+}
+
+.sidePadding > p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section.topGradient h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.topGradient p.excellent {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+section.topGradient p.bottom{
+    padding-bottom: 40px;
+}
+
+ul{
+    display: inline;
+}
+
+section > h3 {
+    margin: 20px 0 20px 30px;
+}
+
+li {
+    list-style: none;
+
+    border-radius: 15px;
+    margin: 0 30px 20px 30px;
+    padding: 20px;
+    
+}
+
+.light-red {
+    background:hsla(0, 100%, 67%, 10%) ;
+    color: hsl(0, 100%, 67%);
+
+    box-shadow:
+    -5px -5px 0 -5px  hsla(0, 100%, 67%,20%),
+     5px -5px 0 -5px  hsla(0, 100%, 67%,20%),
+    -5px  5px 0 -5px  hsla(0, 100%, 67%,20%),
+     5px  5px 0 -5px  hsla(0, 100%, 67%,20%);
+}
+
+.light-yellow {
+    background:hsla(39, 100%, 56%, 10%) ;
+    color: hsl(39, 100%, 56%);
+
+    box-shadow:
+    -5px -5px 0 -5px  hsla(39, 100%, 56%, 20%),
+    5px -5px 0 -5px  hsla(39, 100%, 56%, 20%),
+   -5px  5px 0 -5px  hsla(39, 100%, 56%, 20%),
+    5px  5px 0 -5px  hsla(39, 100%, 56%, 20%);
+    
+}
+
+.light-green {
+    background:hsla(166, 100%, 37%, 10%) ;
+    color:  hsla(224, 30%, 27%,50%);
+
+    box-shadow:
+    -5px -5px 0 -5px  hsla(166, 100%, 37%, 20%),
+    5px -5px 0 -5px  hsla(166, 100%, 37%, 20%),
+   -5px  5px 0 -5px  hsla(166, 100%, 37%, 20%),
+    5px  5px 0 -5px  hsla(166, 100%, 37%, 20%);
+
+    
+}
+
+.light-purple {
+    background:hsla(234, 85%, 45%, 10%) ;
+    color: hsl(234, 85%, 45%);
+
+    box-shadow:
+    -5px -5px 0 -5px  hsla(234, 85%, 45%, 20%) ,
+    5px -5px 0 -5px  hsla(234, 85%, 45%, 20%) ,
+   -5px  5px 0 -5px  hsla(234, 85%, 45%, 20%) ,
+    5px  5px 0 -5px  hsla(234, 85%, 45%, 20%) ;
+}
+
+button {
+    display: block;
+    width: 85%;
+
+    padding: 15px;
+    margin: 30px auto 30px auto;
+    border-radius: 30px;
+
+    background: hsl(224, 30%, 27%);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+    border: solid 1px black;
+}
+
+/* Advanced Styling Fonts */
+
+.circle-bg {
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+    width: 150px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+
+    line-height: 40px;
+}
+
+h2 {
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+    font-size: 18px;
+
+    color: hsla(221, 100%, 96%,70%);
+}
+
+h2.circle-bg span {
+    font-size: 60px;
+    padding: 0;
+
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-size: 20px;
+    color:hsla(221, 100%, 96%,70%);
+}
+
+.excellent {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.bottom {
+    font-weight: 700;
+    color:hsla(221, 100%, 96%,70%);
+}
+
+h3 {
+    color: hsl(224, 30%, 27%);
+}
+
+/* Summary list style */
+
+li {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+}
+
+.headingg {
+    flex: 3;
+
+    font-weight: 500;
+}
+
+.scoring {
+  margin-right: 10px;
+  color: hsla(224, 30%, 27%);
+
+  font-weight: 800;
+}
+
+.total-over {
+    color: hsla(224, 30%, 27%,50%);
+
+    font-weight: 700;
+}
+
+i.icon {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+}
+
+.reaction-i {
+    background: url("/images/icon-reaction.svg");
+}
+
+.memory-i {
+    background: url("/images/icon-memory.svg");
+}
+
+.verbal-i {
+    background: url("/images/icon-verbal.svg");
+}
+
+
+.visual-i {
+    background: url("/images/icon-visual.svg");
+}
+
+
+
