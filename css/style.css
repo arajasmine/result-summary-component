@@ -75,7 +75,7 @@ li {
 
 .light-green {
     background:hsla(166, 100%, 37%, 10%) ;
-    color:  hsla(224, 30%, 27%,50%);
+    color:  hsl(166, 100%, 37%);
 
     box-shadow:
     -5px -5px 0 -5px  hsla(166, 100%, 37%, 20%),
