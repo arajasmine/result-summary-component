@@ -1,8 +1,12 @@
+/* container */
+
 section, ul, div{
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
+/* top section */
 
 section.topGradient {
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
@@ -12,6 +16,8 @@ section.topGradient {
     border-bottom-right-radius: 30px ;
     border-bottom-left-radius: 30px ;
 }
+
+/* paddings */
 
 .sidePadding > p{
     padding-left: 40px;
@@ -33,6 +39,8 @@ section.topGradient p.bottom{
     padding-bottom: 40px;
 }
 
+/* bottom section */
+
 ul{
     display: inline;
 }
@@ -49,6 +57,8 @@ li {
     padding: 20px;
     
 }
+
+/* box colors */
 
 .light-red {
     background:hsla(0, 100%, 67%, 10%) ;
@@ -99,7 +109,7 @@ li {
 
 button {
     display: block;
-    width: 85%;
+    width: 95%;
 
     padding: 15px;
     margin: 30px auto 30px auto;
@@ -212,6 +222,120 @@ i.icon {
 
 .visual-i {
     background: url("/images/icon-visual.svg");
+}
+
+@media (min-width: 850px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+
+        flex-direction: row-reverse;
+
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        width: 35%;
+        padding: 20px;
+    }
+
+    .topGradient {
+        width: 37%;
+    }
+
+    div{
+        display: none;
+    }
+
+    li {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    button {
+        width: 85%;
+        padding: 10px;
+    }
+
+    section.topGradient {
+        background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+    
+        border-radius: 30px;
+        padding: 40px;
+
+        order: 1;
+    }
+
+    .whiteBG {
+        margin: -20px;
+        padding-left: 30px;
+        box-shadow: 
+        50px 30px 50px hsl(221, 100%, 96%),
+        -10px -3px 50px hsla(221, 100%, 96%,30%);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+
+        flex-direction: row-reverse;
+
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        width: 25%;
+        padding: 20px;
+    }
+
+    .topGradient {
+        width: 27%;
+    }
+
+    div{
+        display: none;
+    }
+
+    li {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    button {
+        width: 85%;
+        padding: 10px;
+    }
+
+    section.topGradient {
+        background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+    
+        border-radius: 30px;
+        padding: 40px;
+
+        order: 1;
+    }
+
+    .whiteBG {
+        margin: -20px;
+        padding-left: 30px;
+        box-shadow: 
+        50px 30px 50px hsl(221, 100%, 96%),
+        -10px -3px 50px hsla(221, 100%, 96%,30%);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
 }
 
 
